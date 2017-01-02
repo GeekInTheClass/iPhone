@@ -1,2 +1,2 @@
 # iPhone
-Share the comments about every iPhone.
+버전별 아이폰에 대한 의견을 공유해 봅니다.
