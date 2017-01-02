@@ -1,2 +1,2 @@
 # iPhone
- ㅇ으ㅡ으으
+Share the comments about every iPhone.
