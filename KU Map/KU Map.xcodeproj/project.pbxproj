@@ -13,6 +13,15 @@
 		14145BD41E1CC20600CAD065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14145BD31E1CC20600CAD065 /* Assets.xcassets */; };
 		14145BD71E1CC20600CAD065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14145BD51E1CC20600CAD065 /* LaunchScreen.storyboard */; };
 		14177B441E1E3B2A00787626 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14177B431E1E3B2A00787626 /* UIViewController+Navigation.swift */; };
+		1462E0CF1E262430008144ED /* CHContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462E0C61E262430008144ED /* CHContentViewController.swift */; };
+		1462E0D01E262430008144ED /* CHControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462E0C71E262430008144ED /* CHControls.swift */; };
+		1462E0D11E262430008144ED /* CHModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462E0C81E262430008144ED /* CHModalViewController.swift */; };
+		1462E0D21E262430008144ED /* CHPagingScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462E0C91E262430008144ED /* CHPagingScrollViewController.swift */; };
+		1462E0D31E262430008144ED /* CHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462E0CA1E262430008144ED /* CHPickerViewController.swift */; };
+		1462E0D41E262430008144ED /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462E0CB1E262430008144ED /* DrawingCanvasView.swift */; };
+		1462E0D51E262430008144ED /* FIlters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462E0CC1E262430008144ED /* FIlters.swift */; };
+		1462E0D61E262430008144ED /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462E0CD1E262430008144ED /* NavigationControllers.swift */; };
+		1462E0D71E262430008144ED /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462E0CE1E262430008144ED /* RecordButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +32,16 @@
 		14145BD31E1CC20600CAD065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14145BD61E1CC20600CAD065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14145BD81E1CC20600CAD065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14177B431E1E3B2A00787626 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		14177B431E1E3B2A00787626 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Navigation.swift"; path = "KU Map/UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		1462E0C61E262430008144ED /* CHContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHContentViewController.swift; path = "KU Map/CHContentViewController.swift"; sourceTree = "<group>"; };
+		1462E0C71E262430008144ED /* CHControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHControls.swift; path = "KU Map/CHControls.swift"; sourceTree = "<group>"; };
+		1462E0C81E262430008144ED /* CHModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHModalViewController.swift; path = "KU Map/CHModalViewController.swift"; sourceTree = "<group>"; };
+		1462E0C91E262430008144ED /* CHPagingScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHPagingScrollViewController.swift; path = "KU Map/CHPagingScrollViewController.swift"; sourceTree = "<group>"; };
+		1462E0CA1E262430008144ED /* CHPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHPickerViewController.swift; path = "KU Map/CHPickerViewController.swift"; sourceTree = "<group>"; };
+		1462E0CB1E262430008144ED /* DrawingCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingCanvasView.swift; path = "KU Map/DrawingCanvasView.swift"; sourceTree = "<group>"; };
+		1462E0CC1E262430008144ED /* FIlters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FIlters.swift; path = "KU Map/FIlters.swift"; sourceTree = "<group>"; };
+		1462E0CD1E262430008144ED /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationControllers.swift; path = "KU Map/NavigationControllers.swift"; sourceTree = "<group>"; };
+		1462E0CE1E262430008144ED /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordButton.swift; path = "KU Map/RecordButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,7 @@
 		14145BC01E1CC20500CAD065 = {
 			isa = PBXGroup;
 			children = (
+				1462E0B31E261E3D008144ED /* Sources */,
 				14145BCB1E1CC20600CAD065 /* KU Map */,
 				14145BCA1E1CC20600CAD065 /* Products */,
 			);
@@ -58,13 +77,29 @@
 			children = (
 				14145BCC1E1CC20600CAD065 /* AppDelegate.swift */,
 				14145BCE1E1CC20600CAD065 /* ViewController.swift */,
-				14177B431E1E3B2A00787626 /* UIViewController+Navigation.swift */,
 				14145BD01E1CC20600CAD065 /* Main.storyboard */,
 				14145BD31E1CC20600CAD065 /* Assets.xcassets */,
 				14145BD51E1CC20600CAD065 /* LaunchScreen.storyboard */,
 				14145BD81E1CC20600CAD065 /* Info.plist */,
 			);
 			path = "KU Map";
+			sourceTree = "<group>";
+		};
+		1462E0B31E261E3D008144ED /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1462E0C61E262430008144ED /* CHContentViewController.swift */,
+				1462E0C71E262430008144ED /* CHControls.swift */,
+				1462E0C81E262430008144ED /* CHModalViewController.swift */,
+				1462E0C91E262430008144ED /* CHPagingScrollViewController.swift */,
+				1462E0CA1E262430008144ED /* CHPickerViewController.swift */,
+				1462E0CB1E262430008144ED /* DrawingCanvasView.swift */,
+				1462E0CC1E262430008144ED /* FIlters.swift */,
+				1462E0CD1E262430008144ED /* NavigationControllers.swift */,
+				1462E0CE1E262430008144ED /* RecordButton.swift */,
+				14177B431E1E3B2A00787626 /* UIViewController+Navigation.swift */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +175,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1462E0D21E262430008144ED /* CHPagingScrollViewController.swift in Sources */,
 				14177B441E1E3B2A00787626 /* UIViewController+Navigation.swift in Sources */,
+				1462E0CF1E262430008144ED /* CHContentViewController.swift in Sources */,
+				1462E0D61E262430008144ED /* NavigationControllers.swift in Sources */,
+				1462E0D01E262430008144ED /* CHControls.swift in Sources */,
 				14145BCF1E1CC20600CAD065 /* ViewController.swift in Sources */,
+				1462E0D41E262430008144ED /* DrawingCanvasView.swift in Sources */,
 				14145BCD1E1CC20600CAD065 /* AppDelegate.swift in Sources */,
+				1462E0D71E262430008144ED /* RecordButton.swift in Sources */,
+				1462E0D51E262430008144ED /* FIlters.swift in Sources */,
+				1462E0D11E262430008144ED /* CHModalViewController.swift in Sources */,
+				1462E0D31E262430008144ED /* CHPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
