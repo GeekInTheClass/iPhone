@@ -89,11 +89,41 @@ open class ActivityScene: UIViewController {
 
 
 
-open class PopoverHostScene:UIViewController, UIPopoverPresentationControllerDelegate
+open class PopoverHostScene1:UITableViewController, UIPopoverPresentationControllerDelegate
 {
     override open func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "popoverSegue" {
             let popoverViewController = segue.destination 
+            popoverViewController.modalPresentationStyle = UIModalPresentationStyle.popover
+            popoverViewController.popoverPresentationController!.delegate = self
+        }
+    }
+    
+    open func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return UIModalPresentationStyle.none
+    }
+}
+
+open class PopoverHostScene2:UIViewController, UIPopoverPresentationControllerDelegate
+{
+    override open func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "popoverSegue" {
+            let popoverViewController = segue.destination
+            popoverViewController.modalPresentationStyle = UIModalPresentationStyle.popover
+            popoverViewController.popoverPresentationController!.delegate = self
+        }
+    }
+    
+    open func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return UIModalPresentationStyle.none
+    }
+}
+
+open class PopoverHostScene3:UIViewController, UIPopoverPresentationControllerDelegate
+{
+    override open func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "popoverSegue" {
+            let popoverViewController = segue.destination
             popoverViewController.modalPresentationStyle = UIModalPresentationStyle.popover
             popoverViewController.popoverPresentationController!.delegate = self
         }
